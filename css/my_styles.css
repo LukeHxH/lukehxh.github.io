@@ -1,5 +1,15 @@
 
 footer {
 	text-align: center;
+	background-color: #29465d;
+	color: #ebebeb;
+	padding-bottom: 20px;
 }
 
+html {
+	background-color: #ebebeb;
+}
+
+main {
+	background-color: white;
+}
