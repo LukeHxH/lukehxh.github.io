@@ -1,9 +1,18 @@
 
 footer {
 	text-align: center;
-	background-color: #29465d;
-	color: #ebebeb;
-	padding-bottom: 20px;
+	background-color: #29465D;
+	color: #cfdad4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#title {
+	margin-top: 30px;
+}
+
+#myPhoto {
+	float: right;
 }
 
 html {
@@ -12,4 +21,26 @@ html {
 
 main {
 	background-color: white;
+}
+
+li {
+	margin: 0px;
+}
+
+footer a {
+	color: #68A9F2;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #68A9F2;
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #68A9F2;
+}
+
+footer a:active {
+    color: white;
 }
