@@ -1,4 +1,4 @@
-function setAge() {
+function getAge() {
 	var today = new Date();
 	var birth = new Date("06/29/1998");
 	var age = today.getFullYear() - birth.getFullYear();
@@ -12,5 +12,5 @@ function setAge() {
 
 window.onload = function() {
 	var ageField = document.getElementById("myAge");
-	ageField.innerHTML = setAge();
+	ageField.innerHTML = getAge();
 };

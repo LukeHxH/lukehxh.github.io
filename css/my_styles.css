@@ -11,8 +11,46 @@ footer {
 	margin-top: 30px;
 }
 
+#photoParagraph {
+	margin: 0;
+	text-align: center;
+}
+
+#description {
+	margin-bottom: 0px;
+}
+
 #myPhoto {
-	float: right;
+	border-radius: 15px;
+}
+
+.social {
+	text-align: center;
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.balloon {
+	position: relative;
+	background: #CFDAD4;
+	border-radius: .4em;
+	padding: 4px;
+}
+
+.balloon:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #CFDAD4;
+	border-right: 0;
+	margin-top: -20px;
+	margin-right: -20px;
 }
 
 html {
