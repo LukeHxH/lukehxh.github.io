@@ -20,13 +20,13 @@ nav a {
 	font-weight: bold;
 }
 
+nav p {
+	margin-bottom: 0px;
+}
+
 main {
 	padding-top: 40px;
 	background-color: white;
-}
-
-nav p {
-	margin-bottom: 0px;
 }
 
 footer {
@@ -62,13 +62,31 @@ main .container {
 	vertical-align: top;
 }
 
-#photoParagraph {
+#photo-container {
 	margin: 0;
 	text-align: center;
+	padding: 10px;
+    background: white;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-#myPhoto {
-	border-radius: 15px;
+#photo-container:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, .3);
+	width: 70%;
+	left: 15%;
+	height: 100px;
+	bottom: 0;
+}
+
+.my-container {
+	background-color: white;
+}
+
+#my-photo {
+	border: 1px solid #bbb;
 }
 
 .right-menu {
@@ -94,10 +112,12 @@ main .container {
 
 .social {
 	text-align: center;
+	margin-top: 15px;
 }
 
 .social a {
 	text-decoration: none;
+	margin: 0px 5px 5px 5px;
 }
 
 .title {
@@ -155,9 +175,6 @@ main .container {
 	border-radius: .4em;
 	padding: 4px;
 	font-size: 105%;
-	display: inline-block;
-	vertical-align: top;
-	vertical-align: bottom;
 }
 
 .balloon:after {
@@ -174,6 +191,21 @@ main .container {
 	margin-right: -20px;
 }
 
-.my-container {
-	background-color: white;
+@media (max-width : 549px) {
+
+	#photo-container {
+		margin-top: 10px;
+	}
+
+	.balloon:after {
+		display: none;
+	}
+
+	.row {
+		margin-bottom: 0px;
+	}
+
+	.see-more {
+		margin-bottom: 10px;
+	}
 }
