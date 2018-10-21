@@ -55,16 +55,15 @@
                 </div>
                 <div class="row presentation">
                     <div class="eight columns vertical-align balloon">
-                        <p class="description title">lukehxh say:</p>
                         <p class="description">
-                            Hello, there! My name's Lucas, I'm <span id="myAge"></span> years old and I live in Campina Grande - PB, Brazil. I'm a Computer Technician at IFRN - Campus Caicó in 2016, and currently I'm an undergraduate student in Computer Science at Federal University of Campina Grande (UFCG).
+                            Hello, there! My name is Lucas, I'm <span id="myAge"></span> years old and I live in Campina Grande - PB, Brazil. I'm a Computer Technician at IFRN - Campus Caicó since 2016, and currently I'm an undergraduate student in Computer Science at Federal University of Campina Grande (UFCG).
                             Some of my interests include full stack web development (HTML, JS/JQuery, CSS, PHP and database connection with SQL), Java, Python and C/C++.
                         </p>
                     </div>
 
                     <div class="four columns vertical-align">
                         <div id="photo-container">
-                            <img id="my-photo" class="u-max-full-width" src="images/lucas.jpg"/>
+                            <img id="my-photo" class="u-max-full-width" src="images/lucas.jpg" onclick="window.open('images/lucas.jpg');" />
                         </div>
                         <div class="social">
                             <a href="https://www.linkedin.com/in/lucasmnf" target="_blank">
@@ -95,7 +94,7 @@
             <div class="container">
                 <div class="row">
                     <div class="column">
-                        <p class="title">SKILLS</p>
+                        <p class="section title">SKILLS</p>
                         currently in progress...
                     </div>
                 </div>
@@ -106,7 +105,7 @@
             <div class="container">
                 <div class="row">
                     <div class="column">
-                        <p class="title">PROJECTS</p>
+                        <p class="section title">PROJECTS</p>
                     </div>
                 </div>
                 <div class="row">
@@ -169,23 +168,30 @@
             <div class="container">
                 <div class="row">
                     <div class="column">
-                        <p class="title"><b>CONTACT</b></p>
-                        <p class="contact">
-                            <img src="images/icon_email.png">
-                            <span>lucasmed812@gmail.com</span>
-                        </p>
-                        <p class="contact">
-                            <img src="images/icon_email.png">
-                            <span>lucas.medeiros.fernandes@ccc.ufcg.edu.br</span>
-                        </p>
-                        <p class="contact">
-                            <img src="images/icon_wpp.png">
-                            <span>(84) 98604-5422</span>
-                        </p>
-                        <p class="contact">
-                            <img src="images/icon_phone.png">
-                            <span>(83) 99603-3672</span>
-                        </p>
+                        <p class="section title"><b>CONTACT</b></p>
+                        <div class="contact">
+                            <h5>Lucas de Medeiros N. Fernandes</h5>
+                            <h6>Computer Science - UFCG</h6>
+
+                            <ul>
+                            <li>
+                                <img src="images/icon_email.png">
+                                <span>lucasmed812@gmail.com</span>
+                            </li>
+                            <li>
+                                <img src="images/icon_email.png">
+                                <span>lucas.medeiros.fernandes@ccc.ufcg.edu.br</span>
+                            </li>
+                            <li>
+                                <img src="images/icon_wpp.png">
+                                <span>(84) 98604-5422</span>
+                            </li>
+                            <li>
+                                <img src="images/icon_phone.png">
+                                <span>(83) 99603-3672</span>
+                            </li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -196,6 +202,7 @@
         <p>Made with <a href="http://getskeleton.com/" target="_blank">skeleton</a> by 
             <a href="https://github.com/LukeHxH/" target="_blank">lukehxh</a>.</p>
     </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/age.js"></script>
 </body>
 </html>
